@@ -1,0 +1,73 @@
+.button {
+  border-radius: 12px;
+  background: $main-btn;
+  box-shadow: 0px 5px 30px 0px rgba(44, 112, 218, 0.10);
+  color: $text-white;
+  padding: 10px 50px;
+  font-family: Poppins-Bold, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button[disabled] {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.button--xs {
+  padding: 10px 15px;
+}
+
+.button--filter {
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+.button--orange {
+  background-color: $orange;
+}
+
+.button--green {
+  background-color: $green;
+}
+
+.button--gold {
+  background-color: $gold;
+}
+
+.button--blue {
+  background-color: $blue;
+}
+
+.button--red {
+  background-color: $red;
+}
+
+.button--brown {
+  background-color: $brown;
+}
+
+.button--slot {
+  &:hover {
+    background-color: $gold;
+    color: $black;
+  }
+}
+
+.button--selected {
+  background-color: $gold;
+  color: $black;
+}

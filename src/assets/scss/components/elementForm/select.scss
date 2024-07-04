@@ -1,0 +1,19 @@
+.select {
+
+}
+
+.select__label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.select__element {
+  background-color: $black;
+  border: 0;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+
+  width: 200px;
+  height: 40px;
+}

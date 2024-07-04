@@ -1,0 +1,36 @@
+.layout {
+  flex: 1 0 auto;
+  overflow-x: hidden;
+}
+
+.layout__empty {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout__empty-header {
+  margin-bottom: 50px;
+}
+
+.layout__cols {
+  display: flex;
+  height: 100%
+}
+
+.layout__col {
+  flex: 1;
+}
+
+.layout__col--sidebar {
+  flex: 0 0 auto;
+}
+
+.layout__col--contents {
+  padding: 20px;
+  position: relative;
+
+  .header-block ~ div {
+    padding-top: 80px;
+  }
+}

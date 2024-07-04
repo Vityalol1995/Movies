@@ -1,0 +1,38 @@
+.visually--hidden {
+  position: absolute !important;
+  overflow: hidden;
+  margin: 0 !important;
+  border: 0 !important;
+  padding: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  clip: rect(1px 1px 1px 1px);
+}
+
+.input--search {
+  width: 350px;
+}
+
+.genre--orange {
+  color: $orange;
+}
+
+.genre--green {
+  color: $green;
+}
+
+.genre--gold {
+  color: $gold;
+}
+
+.genre--blue {
+  color: $blue;
+}
+
+.genre--red {
+  color: $red;
+}
+
+.genre--brown {
+  color: $brown;
+}

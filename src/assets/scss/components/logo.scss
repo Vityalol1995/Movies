@@ -1,0 +1,39 @@
+.logo {
+  font-family: 'Chillax-Bold', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  height: 40px;
+}
+
+.rotate {
+  display: inline-block;
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateX(0deg);
+    color: white;
+  }
+  25% {
+    padding-bottom: 5px;
+  }
+  50% {
+    color: $main-btn;
+    padding-bottom: 9px;
+  }
+  75% {
+    padding-bottom: 5px;
+  }
+  100% {
+    transform: rotateX(360deg);
+    padding-bottom: 0
+  }
+}

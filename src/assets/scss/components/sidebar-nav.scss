@@ -1,0 +1,56 @@
+.sidebar-nav {
+  margin-top: 33px;
+}
+
+.sidebar-nav__list {
+  margin: -15px 0;
+}
+
+.sidebar-nav__item {
+  padding: 15px 0;
+}
+
+.sidebar-nav__link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  color: $text-gray;
+  background-color: transparent;
+  border-radius: 12px;
+  box-shadow: none;
+  transition: all 0.3s, background-color 0.3s ease-in-out;
+
+  span {
+    margin-left: 10px;
+    background-color: $red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.sidebar-nav--active {
+  color: $text-white;
+  background-color: $main-btn;
+  box-shadow: 0px 5px 30px 0px rgba(44, 112, 218, 0.10);
+  font-weight: 700;
+  font-family: 'Poppins-Bold', sans-serif;
+  position: relative;
+  svg {
+    stroke: $text-white;
+    fill: $text-white;
+
+    path:first-child {
+      stroke: $text-white;
+    }
+    path {
+      stroke: $main-btn;
+    }
+  }
+}

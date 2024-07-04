@@ -1,0 +1,11 @@
+.sidebar {
+  padding: 20px 12px;
+  width: 216px;
+  //height: 100%;
+  border-right: $light-gray;
+  background: rgba(255, 255, 255, 0.05);
+  min-height: 100vh;
+  height: 100%;
+  z-index: 100;
+  position: relative;
+}

@@ -1,0 +1,17 @@
+.tickets {
+  position: relative;
+}
+
+.tickets__list {
+  margin: -10px 0;
+}
+
+.tickets__item {
+  padding: 10px 0;
+}
+
+.tickets__inf {
+  background-color: $medium-gray;
+  padding: 20px;
+  border-radius: 8px;
+}

@@ -1,0 +1,23 @@
+//base
+@import "base/reset";
+@import "base/base";
+@import "base/fonts";
+@import "base/colors";
+@import "base/title";
+@import "base/helpers";
+@import "base/container";
+
+//components
+@import "components/layout";
+@import "components/logo";
+@import "components/sidebar";
+@import "components/sidebar-nav";
+@import "components/header-block";
+@import "components/button";
+@import "components/cards/cards";
+@import "components/movie-detail";
+@import "components/tickets";
+
+//form
+@import "components/field";
+@import "components/elementForm/select";
